@@ -1,0 +1,26 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='opt' required='true' />
+        <option name='qa' />
+      </options>
+    </context>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>01d1649c-4186-4c91-b35a-3f6d034a45fd</id>
+    <loglevel>INFO</loglevel>
+    <name>test</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo ${option.qa}</exec>
+      </command>
+    </sequence>
+    <uuid>01d1649c-4186-4c91-b35a-3f6d034a45fd</uuid>
+  </job>
+</joblist>
