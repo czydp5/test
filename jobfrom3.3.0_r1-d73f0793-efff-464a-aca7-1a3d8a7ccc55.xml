@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>d73f0793-efff-464a-aca7-1a3d8a7ccc55</id>
+    <loglevel>INFO</loglevel>
+    <name>jobfrom3.3.0_r1</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "testing from 3.3.0_r1"</exec>
+      </command>
+    </sequence>
+    <uuid>d73f0793-efff-464a-aca7-1a3d8a7ccc55</uuid>
+  </job>
+</joblist>
