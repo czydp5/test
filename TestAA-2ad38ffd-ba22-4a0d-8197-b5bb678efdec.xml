@@ -1,0 +1,23 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>2ad38ffd-ba22-4a0d-8197-b5bb678efdec</id>
+    <loglevel>INFO</loglevel>
+    <name>TestAA</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>sleep 1</exec>
+      </command>
+      <command>
+        <exec>echo "awesome"</exec>
+      </command>
+    </sequence>
+    <uuid>2ad38ffd-ba22-4a0d-8197-b5bb678efdec</uuid>
+  </job>
+</joblist>
