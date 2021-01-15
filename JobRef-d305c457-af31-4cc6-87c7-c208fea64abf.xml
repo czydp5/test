@@ -1,0 +1,27 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>d305c457-af31-4cc6-87c7-c208fea64abf</id>
+    <loglevel>INFO</loglevel>
+    <name>JobRef</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <jobref name='TestA' nodeStep='true'>
+          <uuid>9a7fcf47-e400-437f-9527-6795204cde39</uuid>
+        </jobref>
+      </command>
+      <command>
+        <jobref name='TestAA' nodeStep='true'>
+          <uuid>2ad38ffd-ba22-4a0d-8197-b5bb678efdec</uuid>
+        </jobref>
+      </command>
+    </sequence>
+    <uuid>d305c457-af31-4cc6-87c7-c208fea64abf</uuid>
+  </job>
+</joblist>
