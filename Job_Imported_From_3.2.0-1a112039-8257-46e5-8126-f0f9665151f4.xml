@@ -1,0 +1,19 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>1a112039-8257-46e5-8126-f0f9665151f4</id>
+    <loglevel>INFO</loglevel>
+    <name>Job_Imported_From_3.2.0</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "testing whether key storage cant be read after import"</exec>
+      </command>
+    </sequence>
+    <uuid>1a112039-8257-46e5-8126-f0f9665151f4</uuid>
+  </job>
+</joblist>
