@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <id>e4d18c9d-5564-4ec5-977a-46d8f003cdd7</id>
+    <loglevel>INFO</loglevel>
+    <name>GH2Job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>sleep 10</exec>
+      </command>
+    </sequence>
+    <uuid>e4d18c9d-5564-4ec5-977a-46d8f003cdd7</uuid>
+  </job>
+</joblist>
