@@ -1,0 +1,20 @@
+<joblist>
+  <job>
+    <defaultTab>nodes</defaultTab>
+    <description>http://localhost:4440/project/GH1/job/create#tab_workflow</description>
+    <executionEnabled>true</executionEnabled>
+    <id>0fe34a1d-c6a6-4b68-b0eb-2857e75eca4a</id>
+    <loglevel>INFO</loglevel>
+    <name>GH1Job</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <schedules />
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>sleep 5</exec>
+      </command>
+    </sequence>
+    <uuid>0fe34a1d-c6a6-4b68-b0eb-2857e75eca4a</uuid>
+  </job>
+</joblist>
